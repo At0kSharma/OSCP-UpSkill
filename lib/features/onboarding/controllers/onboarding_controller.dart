@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oscp_upskill/features/login/screens/login.dart';
 import 'package:oscp_upskill/features/verify/screens/verify.dart';
 
 class OnBoardingController extends GetxController {
@@ -31,6 +32,6 @@ class OnBoardingController extends GetxController {
 
   ///update current index & jump to the last page
   void skipPage() {
-    Get.to(() => const VerifyScreen());
+    Get.offAll(() => const LoginScreen());
   }
 }

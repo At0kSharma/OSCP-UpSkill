@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_otp_text_field/flutter_otp_text_field.dart';
+import 'package:oscp_upskill/features/verify/controllers/verify_controller.dart';
 import 'package:oscp_upskill/helpers/helper_functions.dart';
 
 class OtpVerifyForm extends StatelessWidget {
@@ -9,6 +10,8 @@ class OtpVerifyForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: prefer_typing_uninitialized_variables
+    var otp;
     return Positioned(
       bottom: 0,
       child: Container(
@@ -29,7 +32,8 @@ class OtpVerifyForm extends StatelessWidget {
               const SizedBox(height: 30),
               OtpTextField(
                 numberOfFields: 6,
-                borderColor: Colors.black,
+                fieldWidth: 42,
+                enabledBorderColor: const Color.fromARGB(115, 155, 154, 154),
                 focusedBorderColor: const Color(0xFFFF1137),
                 //set to true to show as box or false to show as dash
                 showFieldAsBox: true,
@@ -39,14 +43,14 @@ class OtpVerifyForm extends StatelessWidget {
                 },
                 //runs when every textfield is filled
                 onSubmit: (String code) {
-                  // otp = code;
-                  // OTPController.instance.verifyOTP(otp);
+                  otp = code;
+                  OTPController.instance.verifyOTP(otp);
                 },
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {
-                  // OTPController.instance.verifyOTP(otp);
+                  OTPController.instance.verifyOTP(otp);
                 },
                 style: ElevatedButton.styleFrom(
                   fixedSize: const Size(300, 60),

@@ -7,13 +7,12 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final formkey = GlobalKey<FormState>();
     return Scaffold(
       backgroundColor: const Color(0xFFFF1137),
       body: Stack(
         children: [
           const OfferText(),
-          LoginForm(formkey: formkey),
+          LoginForm(),
         ],
       ),
     );
