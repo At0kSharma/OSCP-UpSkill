@@ -12,8 +12,6 @@ class LoginController extends GetxController {
   final userRepo = Get.put(UserController());
 
   Future<void> createUser(UserModel user) async {
-    print(user.userName);
-    print(user.phoneNumber);
     phoneAuthentication(user.phoneNumber);
     await userRepo.createUser(user);
     Get.to(() => const VerifyScreen());

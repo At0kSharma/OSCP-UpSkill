@@ -50,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDo1K338aUuzwfSCcj0Hjail78_QP7yM5k',
-    appId: '1:709968555565:web:1e84d09e51c5f6901e52a4',
-    messagingSenderId: '709968555565',
-    projectId: 'upskillfinder-a10bd',
-    authDomain: 'upskillfinder-a10bd.firebaseapp.com',
-    storageBucket: 'upskillfinder-a10bd.appspot.com',
-    measurementId: 'G-LPK87KLSLL',
+    apiKey: 'AIzaSyAZXEF4Jkq9mkWVbFeYeeSOxVVTM2eLJSo',
+    appId: '1:839473401489:web:5b2189a0aacc9b401ff930',
+    messagingSenderId: '839473401489',
+    projectId: 'oscp-upskill',
+    authDomain: 'oscp-upskill.firebaseapp.com',
+    storageBucket: 'oscp-upskill.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAl68WaCSg4lU8o6WIs1J_5yqNwSuRSee8',
-    appId: '1:709968555565:android:2af0f75a09d87c9c1e52a4',
-    messagingSenderId: '709968555565',
-    projectId: 'upskillfinder-a10bd',
-    storageBucket: 'upskillfinder-a10bd.appspot.com',
+    apiKey: 'AIzaSyBSeUcMGPYOs6foP6tK4C-RGEouWBeU_IE',
+    appId: '1:839473401489:android:3963f5d45380bfdc1ff930',
+    messagingSenderId: '839473401489',
+    projectId: 'oscp-upskill',
+    storageBucket: 'oscp-upskill.appspot.com',
   );
 }

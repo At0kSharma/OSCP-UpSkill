@@ -1,155 +1,26 @@
 {
   "project_info": {
-    "project_number": "709968555565",
-    "project_id": "upskillfinder-a10bd",
-    "storage_bucket": "upskillfinder-a10bd.appspot.com"
+    "project_number": "839473401489",
+    "project_id": "oscp-upskill",
+    "storage_bucket": "oscp-upskill.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:709968555565:android:e679ecbc1e0a9a191e52a4",
-        "android_client_info": {
-          "package_name": "com.example.pmp_upskillfinder"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "709968555565-0puta1miatgugh3r3ee7dk7e7gun2804.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.pmp_upskillfinder",
-            "certificate_hash": "f9e43007e9b1d94545bcc0294203748586edc0a3"
-          }
-        },
-        {
-          "client_id": "709968555565-3u33l9s5i16e5f02d5oav9drscd87jof.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.pmp_upskillfinder",
-            "certificate_hash": "46fa801aa3c66c51159fd6d198f4a94952a74bd5"
-          }
-        },
-        {
-          "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAl68WaCSg4lU8o6WIs1J_5yqNwSuRSee8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "709968555565-vh8384b5818bbpn31s6kmf7i7qni7kp8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.pmpUpskillfinder"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:709968555565:android:2af0f75a09d87c9c1e52a4",
+        "mobilesdk_app_id": "1:839473401489:android:3963f5d45380bfdc1ff930",
         "android_client_info": {
           "package_name": "com.oscp.upskill"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "709968555565-cc3834usm64pckfdu4fqaooo64d01d56.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.oscp.upskill",
-            "certificate_hash": "f9e43007e9b1d94545bcc0294203748586edc0a3"
-          }
-        },
-        {
-          "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAl68WaCSg4lU8o6WIs1J_5yqNwSuRSee8"
+          "current_key": "AIzaSyBSeUcMGPYOs6foP6tK4C-RGEouWBeU_IE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "709968555565-vh8384b5818bbpn31s6kmf7i7qni7kp8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.pmpUpskillfinder"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:709968555565:android:0f783644c27c6dbe1e52a4",
-        "android_client_info": {
-          "package_name": "com.pmp.upskill"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "709968555565-d8qctpvl0o47d60667oc3jv0nraov652.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.pmp.upskill",
-            "certificate_hash": "46fa801aa3c66c51159fd6d198f4a94952a74bd5"
-          }
-        },
-        {
-          "client_id": "709968555565-q8so9eom8h5300hdchpqne64ah15g8op.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.pmp.upskill",
-            "certificate_hash": "f9e43007e9b1d94545bcc0294203748586edc0a3"
-          }
-        },
-        {
-          "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAl68WaCSg4lU8o6WIs1J_5yqNwSuRSee8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "709968555565-m2jahdr2lfub47hooeck4mg9vuir2se9.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "709968555565-vh8384b5818bbpn31s6kmf7i7qni7kp8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.pmpUpskillfinder"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
